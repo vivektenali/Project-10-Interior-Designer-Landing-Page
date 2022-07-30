@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova:ital,wght@1,500&family=Josefin+Sans:wght@200;400&family=Kanit:wght@200;500&family=Montserrat:ital,wght@0,500;1,400;1,500;1,600&family=Noto+Sans:wght@700&family=Nunito:wght@700&family=Oswald:wght@300;500;700&family=Work+Sans:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(../images/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;  
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+
+.logo{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+   }
+
+   hr{
+     border: 1px solid white;
+     margin-left: 390px;
+   }
+
+   h1{
+    position: relative;
+    color: aliceblue;
+    width: 900px;
+    left: 120px;
+    top: 250px;
+    font-size: 60px;
+    font-family: "Montserrat";
+   }
+
+   .btn{
+    background: transparent;
+    height: 50px;
+    width: 190px;
+    color: aliceblue;
+    border-radius: 28px;
+    border-color: aliceblue;
+    position: relative;
+    top: 300px;
+    left: 120px;
+     font-family: "Montserrat";
+   }
+
+   .buld{
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+    position: relative;
+    left: 648px;
+    top: 177px;
+   }
+
+ .puzzle-piece{
+    height: 100px;
+    width: 100px;
+ }
+
+   .buld-button{
+    background-color: aliceblue;
+    height: 50px;
+    width: 130px;
+    color: aliceblue;
+    border-radius: 28px;
+    border-color: aliceblue;
+    position: relative;
+    top: 180px;
+    left: 560px;
+    z-index: -1;
+    
+   }
+
+   .sp-button{
+     background-color: aliceblue;
+    height: 50px;
+    width: 130px;
+    color: aliceblue;
+    border-radius: 28px;
+    border-color: aliceblue;
+    position: relative;
+    top: -30px;
+    left: 760px;
+    z-index: -1;
+   }
+
+   .bulb-content{
+     color: aliceblue;
+       font-family: "Montserrat";
+       font-size: 19px;
+       position: relative;
+           left: 799px;
+    top: 0px;
+   }
+
+   .buld-backgroud{
+    background-color: antiquewhite;
+    color: aliceblue;
+    height: 200px;
+    width: 260px;
+    opacity: 0.1;
+    position: relative;
+    left: 780px;
+    top: 100px;
+   }
+
+   .card-backgroud{
+     background-color: antiquewhite;
+    color: aliceblue;
+    height: 200px;
+    width: 300px;
+    opacity: 0.1;
+    position: relative;
+    left: 1120px;
+    top: -400px;
+
+   }
+
+.con{
+    position: relative;
+    left: 330px;
+    top: -500px;
+   
+}
+
+
+.puzzle-piece{
+  position: absolute;
+  top: 200;
+  height: 35px;
+  left: 1150px;
+}
+
+.nav-items:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+.btn:hover{
+background-color: aliceblue;
+  color: black;
+}
+
+.credits{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+}
