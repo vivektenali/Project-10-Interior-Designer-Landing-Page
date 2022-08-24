@@ -176,3 +176,31 @@ background-color: aliceblue;
   right: 0;
   color: aliceblue;
 }
+
+
+@media only screen and (max-width: 600px) {
+  nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+  }
+
+  .nav-items{
+   display: flex;
+   padding: 10px;
+   flex-direction: column;
+  }
+
+  .nav-items{
+    padding: 10px;
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+
+  
+}
